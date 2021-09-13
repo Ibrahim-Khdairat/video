@@ -1,0 +1,17 @@
+button {
+    position: absolute;
+    top: 10px;
+    left:135px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    font:1.2em 'consolas';
+    transition: transform 300ms ease ;
+    z-index: 2;
+
+}
+button:active{
+    transform: scale(0.95);
+}
