@@ -2,4 +2,4 @@
 
 const dotenv =require('dotenv');
 dotenv.config();
-require('./src/server.js').startup(3000);
+require('./src/server.js').startup(3006);

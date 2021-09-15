@@ -78,10 +78,10 @@ async function signInFunction(userName, password, role) {
 
             localStorage.setItem("userData", storageData);
             
-            location.replace(
-              "https://videos-chat-app.herokuapp.com/"
+            // location.replace(
+            //   "https://videos-chat-app.herokuapp.com/"
               
-            );
+            // );
         })
         .catch((err) => {
             console.log(err);
