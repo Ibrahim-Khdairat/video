@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/social-media-asac/video-chat.git"
+    "url": "git+https://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@github.com/Ibrahim-Khdairat/video-chat.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/social-media-asac/video-chat/issues"
+    "url": "https://github.com/Ibrahim-Khdairat/video-chat/issues"
   },
-  "homepage": "https://github.com/social-media-asac/video-chat#readme",
+  "homepage":  "https://github.com/Ibrahim-Khdairat/video-chat#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
