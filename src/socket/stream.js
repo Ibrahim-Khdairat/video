@@ -71,6 +71,7 @@ const stream = (socket) => {
 
     socket.on("userConnected", user => {
         console.log(`${user} connected`);
+        socket.emit("username" , user);
     })
 
     // socket.on("message" , (message)=>{

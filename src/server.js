@@ -25,7 +25,7 @@ app.use(favicon(path.join(__dirname, 'favicon-32x32.png')));
 app.use(express.static('public'));
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/public/loginform.html");
+  res.sendFile(__dirname + "/public/index.html");
 });
 
 app.use(cors());
